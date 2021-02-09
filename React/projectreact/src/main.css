@@ -1,0 +1,38 @@
+header{    width: 100%;
+    height: 10vw;
+    display: inline-block;
+    border:1px solid;
+}
+.search-bar{
+    display: inline-block;
+    position: relative;
+    right: -50vw;
+    padding: 2vw;
+}
+.nav{
+    border:1px solid;
+    width:100%;
+    height: 3vw;
+}
+.nav-links{
+    margin:0px;
+}
+.nav-links li{
+    width: 7vw;
+text-decoration: none;
+display: inline-block;
+height: 1.7vw;
+padding:0.65vw 0px;
+text-align: center;
+}
+.nav-links li:hover{
+    background-color: aquamarine;
+}
+header>img{
+    margin-left:1vw;
+    padding: 2vw;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
