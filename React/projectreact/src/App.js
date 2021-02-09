@@ -1,17 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import './main.css';
+import logo1 from './logo.png';
 
 function App() {
   return (
     <div class="wrapper">
         <header>
-          <img src=".\images\logo\logo.png" alt="company Logo"/>
+          <img src={logo1} alt="company Logo"/>
           <div class="search-bar">
           <form action='/' method="POST">
             
               <input type="text" name="search_input"/>
-              <input type="submit" value="search"/>
+              <input type="submit"/>
             
           </form>
           </div>
